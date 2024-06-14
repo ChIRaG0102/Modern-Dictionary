@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:wght@400;500&family=Roboto:ital@0;1&family=Smooch&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.page1{
+    height: 100vh;
+    width: 100%;
+    background-color: #C40C0C;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center ;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+header{
+    height: 10vh;
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1{
+    font-size: 2.9rem;
+    font-weight: 600;
+    color: #FF6500;
+    filter: drop-shadow(0px 0px 20px #ec7120);
+}
+
+.card{
+    height: 70vh;
+    width: 40vw;
+    background-color: #FF6500;
+    border-radius: 17px;
+    filter: drop-shadow(0px 0px 25px #0f0d0d);
+    cursor: pointer;
+    /* overflow: hidden; */
+}
+
+.upper{
+    height: 15vh;
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.upper input{
+    padding: 1vw 2.7vw;
+    height: 5vh;
+    width: 23vw;
+    border: none;
+    outline: none;
+    background-color: #FF8A08;
+    border-radius: 15px;
+    color: #d15400;
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+::placeholder{
+    font-size: 1rem;
+    color: #d15400;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 500;
+}
+
+.upper input:hover{
+    background-color: #f68605;    
+}
+
+.upper button{
+    height: 5vh;
+    width: 6vw;
+    border-radius: 15px;
+    border: none;
+    background-color: #FFC100;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #d15400;
+    cursor: pointer;
+}
+
+.upper button:hover{
+    background-color: #e1ac0b;
+    /* scale: 103%; */
+    transition: 1s linear ease-in-out;
+}
+
+.lower{
+    height: calc(70vh - 15vh);
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    padding: 0vw 2vw;
+}
+
+.word{
+    height: 10vh;
+    width: 100%;
+    /* background-color: rebeccapurple;  */
+    display: flex;
+    align-items: center;
+    font-size: 1.92rem;
+    word-spacing: 2%;
+    color: #b30000;
+}
+
+.noun{
+    height: 13vh;
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    font-size: 1.2rem;
+    word-spacing: 2%;
+    font-weight: 400;
+    color: #ed1111;
+    padding: 2vw 0vw;
+}
+
+.noun h4{
+    font-weight: 450;
+}
+
+.synomy{
+    height: 10vh;
+    width: 100%;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    align-items: center;
+    word-spacing: 2%;
+}
+
+.synomy h3{
+    font-weight: 490;
+    color: #FFC100;
+}
+
+.defi{
+    height: 21vh;
+    width: 100%;
+    /* background-color: gray; */
+    overflow: hidden;
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    gap: 1rem;
+    color: #6b2b00;
+}
+
+.bar{
+    height: 15vh;
+    width: 1.5vw;
+    background-color: #C40C0C;
+}
+
+footer{
+    height: 10vh;
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h2{
+    font-size: 2rem;
+    font-weight: 400;
+    color: #FF6500;
+    font-family: "smooch", cursive;
+}
